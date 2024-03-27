@@ -15,7 +15,9 @@ function App() {
                     <Link to="/">Главная </Link>
                 </li>
                 <li>
-                    <Link to="/page">Другая страница </Link>
+                    <Link to="/page" target="_blank">
+                        Другая страница{' '}
+                    </Link>
                 </li>
             </ul>
         </div>
