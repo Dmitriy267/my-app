@@ -5,12 +5,11 @@ import { Link, Route, Routes } from 'react-router-dom';
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/page" element={<Page />} />
-                </Routes>
-            </header>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/page" element={<Page />} />
+            </Routes>
+
             <ul>
                 <li>
                     <Link to="/">Главная </Link>
